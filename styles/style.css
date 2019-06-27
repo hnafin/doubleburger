@@ -168,7 +168,7 @@ a{
 	width: 50%; height: 500px;
 	background-color: white;
 	float: left;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .about:nth-child(1){
@@ -180,12 +180,12 @@ a{
 }
 
 .about img{
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .kecil{
 	width: 81%; height: 300px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	/*background-color: maroon;*/
 }
 
