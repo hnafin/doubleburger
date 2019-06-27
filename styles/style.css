@@ -1,0 +1,251 @@
+/*font-family: 'Pacifico', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Abel', sans-serif;*/
+
+*{	
+	margin: 0; padding: 0;
+	font-family: sans-serif;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 80%;
+	margin: 0 10%;
+	/*background-color: blue;*/
+}
+
+/*NAVBARR*/
+
+.navbar {
+  margin: 0;  padding: 10px;
+  overflow: hidden;
+  background-color: /*#333*/#06101b;
+  font-size: 12px;
+}
+
+.navbar ul{
+	width: 100%;
+}
+
+.navbar li {
+  float: left;
+  list-style-type: none;
+}
+
+.navbar li:last-child {
+  /*border-right: none;*/
+}
+
+.navbar li a {
+  display: block;
+  color: silver;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  /*background-color: #111;*/
+  color: white;
+}
+
+.navbar input[type=search]{
+	border: 1px solid white; 
+	border-radius: 15px; 
+	padding: 10px;
+	/*background-color: rgba(0,0,0,0.1);*/
+	outline: none; color: black;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+/*===========================================*/
+
+.main{
+	/*display: flex;*/
+	font-weight: bold;
+	width: 100%; height: 100vh;
+	/*background-color: green;*/
+	/*align-items: center;
+	justify-content: center;*/
+}
+
+.main h1{
+	font-size: 100px;
+	text-align: center;
+	position: relative;
+	top: 185px;
+	/*background: #eee;*/
+	/*margin: 20% 0 0 0;*/
+	padding: 8px 24px;
+	border-radius: 16px;
+	font-family: 'Bree Serif', serif;
+}
+
+.main h2{
+	font-family: 'Bree Serif', serif;
+	font-size: 30px;
+	margin: 120px 0 40px 0;
+}
+
+.main:nth-child(2){
+	background-image: url('../images/DB.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: 
+}
+
+.main:nth-child(3){
+	background-color: white;
+	height: 700px;
+}
+
+.main:nth-child(4){
+	background-image: url('../images/BURGER.gif');
+	background-size: cover;
+	/*height: 1000px;*/
+	background-attachment: fixed;
+}
+
+.main:nth-child(6){
+	background-image: url('../images/20.jpg');
+	background-size: cover;
+	/*height: 1000px;*/
+	margin: 400px 0 0 0;
+	background-attachment: fixed;
+}
+
+/*==============   MENU   ======================*/
+.menu{
+	width: 25%; float: left;
+	/*background-color: red;*/
+	margin: 0 44px;
+}
+
+.menu img{
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.menu img:hover{
+	transform: scale(1.1,1.1);
+	transition: 0.2s;
+}
+
+.menu h3{
+	text-align: center;
+	margin: 20px 0;
+	font-family: 'Bree Serif', serif;
+	font-size: 22px;
+}
+
+.box{
+	/*margin-top: 350px;*/
+}
+
+.box a{
+	/*margin: 50px 0;*/
+	padding: 10px 30px;
+	background-color: #06101b;
+	color: white;
+	transition: 0.5s;
+	/*font-family: 'Bree Serif', serif;*/
+}
+
+.box a:hover{
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+
+/*=============== ABOUT ===================*/
+
+.about{
+	width: 50%; height: 500px;
+	background-color: white;
+	float: left;
+}
+
+.about:nth-child(1){
+	/*background-color: red;*/
+}
+
+.about:nth-child(4){
+	/*background-color: orange;*/
+}
+
+.about img{
+}
+
+.kecil{
+	width: 81%; height: 300px;
+	/*background-color: maroon;*/
+}
+
+.kecil p{
+	
+}
+
+/*=============== FOOOTERRRR ===================*/
+
+footer{
+	width: 100%; height: 305px;
+	background-color: #06101b;
+	color: white; clear: both;
+	overflow: hidden;
+}
+
+.kotak{
+	width: 15%;
+	/*background-color: blue;*/
+	float: left;
+	margin: 50px 3%;
+}
+
+.no4 {
+	width: 31%;
+}
+
+.kotak input[type=email]{
+	border: 1px solid white; 
+	border-radius: 4px; 
+	padding: 15px;
+	background-color: rgba(0,0,0,0.1);
+	outline: none; color: white;
+	cursor: text;
+	width: 100%;
+	margin-bottom: 10px; 
+	overflow: hidden;
+}
+
+.kotak input[type=submit]{
+	border: 1px solid white; 
+	border-radius: 4px; 
+	padding: 15px;
+	background-color: rgba(0,0,0,0.1);
+	outline: none; color: white;
+	cursor: pointer;
+	width: 110%;
+	transition: 0.2s;
+}
+
+.kotak input[type=email]:hover{
+	border: 1px solid grey;
+}
+
+.kotak input[type=submit]:hover{
+	background-color: white;
+	color: black;
+	transition: 0.2s
+}
+
+.copy{
+	clear: both; width: 100%;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
