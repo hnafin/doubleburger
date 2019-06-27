@@ -18,3 +18,14 @@ window.addEventListener("scroll", function(){
 	let offset = window.pageYOffset;
 	parallax3.style.backgroundPositionY = offset * -0.085 + "px";
 })
+
+$('.page-scroll').on('click', function(e){
+	var tujuan = $(this).attr('href');
+	var elemenTujuan = $(tujuan);
+
+	$('*').animate({
+		scrollTop: elemenTujuan.offset().top}, 1250, 'swing');
+
+	e.preventDefault();
+
+});
